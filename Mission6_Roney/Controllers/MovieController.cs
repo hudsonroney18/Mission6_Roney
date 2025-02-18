@@ -13,6 +13,8 @@ namespace Mission6_Roney.Controllers
         }
 
         // GET: AddMovie
+        
+        [HttpGet]
         public IActionResult AddMovie()
         {
             return View();
