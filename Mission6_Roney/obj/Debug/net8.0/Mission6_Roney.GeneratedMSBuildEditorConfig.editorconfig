@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/AddMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BZGRNb3ZpZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/GetToKnowJoel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXRUb0tub3dKb2VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,12 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Movies/AddMovie.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0FkZE1vdmllLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Movies/MovieList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL01vdmllTGlzdC5jc2h0bWw=
+[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/MovieList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Nb3ZpZUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/_ViewImports.cshtml]
