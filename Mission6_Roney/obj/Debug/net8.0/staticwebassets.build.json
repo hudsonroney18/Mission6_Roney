@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N8wJmuq4AHis0LFTXFZwynzZGbkq2SBicQaBJMzbA0Q=",
+  "Hash": "lHdemTqTwmSZFKZHqVrBwq+ggWpKfxYpybOIRyP7UpQ=",
   "Source": "Mission6_Roney",
   "BasePath": "_content/Mission6_Roney",
   "Mode": "Default",
@@ -55,25 +55,6 @@
       "OriginalItemSpec": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/obj/Debug/net8.0/scopedcss/projectbundle/Mission6_Roney.bundle.scp.css"
     },
     {
-      "Identity": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/BaconsaleKate.jpg",
-      "SourceId": "Mission6_Roney",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/",
-      "BasePath": "_content/Mission6_Roney",
-      "RelativePath": "BaconsaleKate.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/BaconsaleKate.jpg"
-    },
-    {
       "Identity": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/css/site.css",
       "SourceId": "Mission6_Roney",
       "SourceType": "Discovered",
@@ -112,12 +93,12 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/JoelHiltonHeadshot.jpg",
+      "Identity": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/img/BaconsaleKate.jpg",
       "SourceId": "Mission6_Roney",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/",
       "BasePath": "_content/Mission6_Roney",
-      "RelativePath": "JoelHiltonHeadshot.jpg",
+      "RelativePath": "img/BaconsaleKate.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,7 +109,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/JoelHiltonHeadshot.jpg"
+      "OriginalItemSpec": "wwwroot/img/BaconsaleKate.jpg"
+    },
+    {
+      "Identity": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/img/JoelHiltonHeadshot.jpg",
+      "SourceId": "Mission6_Roney",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/",
+      "BasePath": "_content/Mission6_Roney",
+      "RelativePath": "img/JoelHiltonHeadshot.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/JoelHiltonHeadshot.jpg"
     },
     {
       "Identity": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/js/site.js",

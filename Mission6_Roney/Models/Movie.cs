@@ -1,34 +1,24 @@
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Mission6_Roney.Models
 {
     public class Movie
     {
-        [Key] // Primary Key
-        public int MovieId { get; set; }
-
         [Required]
-        public string Category { get; set; }
-
+        public int MovieId{ get; set; }
         [Required]
-        public string Title { get; set; }
-
+        public int CategoryId { get; set; }
         [Required]
+        public required string Title { get; set; }
         public int Year { get; set; }
+        public string? Director { get; set; }
+        public string? Rating { get; set; }
+        public bool Edited { get; set; }
+        public string? LentTo { get; set; }
 
-        [Required]
-        public string Director { get; set; }
+        public bool CopiedToPlex { get; set; }
+        public string? Notes { get; set; }
 
-        [Required]
-        public string Rating { get; set; } // Dropdown (G, PG, PG-13, R)
-
-        public bool Edited { get; set; } = false;  // Ensure it’s never null
-
-        public string? LentTo { get; set; } // Optional
-
-        [StringLength(25, ErrorMessage = "Notes cannot exceed 25 characters.")]
-        public string? Notes { get; set; } // Optional, Max 25 characters
+        public Category? Category { get; set; }
     }
 }
-
-// just a test comment

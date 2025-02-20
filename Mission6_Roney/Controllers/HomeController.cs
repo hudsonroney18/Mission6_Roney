@@ -1,55 +1,45 @@
+using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Mission6_Roney.Models;
-using Microsoft.EntityFrameworkCore;
+using SQLitePCL;
 
-namespace Mission6_Roney.Controllers;
-
-public class HomeController : Controller
+namespace Mission6_Roney.Controllers
 {
-    private readonly AppDbContext _context;
-
-    public HomeController(AppDbContext context)
+    public class HomeController : Controller
     {
-        _context = context;
-    }
-
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult GetToKnowJoel()
-    {
-        return View();
-    }
-    // GET: AddMovie
-        
-    [HttpGet]
-    public IActionResult AddMovie()
-    {
-        return View();
-    }
-
-    // POST: AddMovie
-    [HttpPost]
-    [ValidateAntiForgeryToken]
-    public IActionResult AddMovie(Movie movie)
-    {
-        if (ModelState.IsValid)
+        private MovieContext _context;
+        public HomeController(MovieContext temp)
         {
-            _context.Movies.Add(movie);
-            _context.SaveChanges();
-            return RedirectToAction("MovieList"); // Redirect to a movie list page after adding
+            _context = temp;
+        }
+        public IActionResult Index()
+        {
+            return View();
+        }
+        public IActionResult JoelPage()
+        {
+            return View();
+        }
+        [HttpGet]
+        public IActionResult EnterMovie()
+        {
+            ViewBag.Categories = _context.Categories.ToList(); // Send categories to view
+            return View();
         }
 
-        return View(movie); // Return to form if invalid
-    }
+        [HttpPost]
+        public IActionResult EnterMovie(Movie response)
+        {
+            _context.Movies.Add(response); // Add record to the database
+            _context.SaveChanges();
 
-    // GET: MovieList (To check if movies were added)
-    public IActionResult MovieList()
-    {
-        var movies = _context.Movies.ToList();
-        return View(movies);
-    }
+            return View("Confirmation");
+        }
+        public IActionResult WaitList()
+        {
+            var movies = _context.Movies.ToList();
 
+            return View(movies); 
+        }
+    }
 }

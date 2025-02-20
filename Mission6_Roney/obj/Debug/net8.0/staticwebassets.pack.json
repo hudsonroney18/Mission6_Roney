@@ -5,20 +5,20 @@
       "PackagePath": "staticwebassets/Mission6_Roney.bundle.scp.css"
     },
     {
-      "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/BaconsaleKate.jpg",
-      "PackagePath": "staticwebassets/BaconsaleKate.jpg"
-    },
-    {
-      "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/JoelHiltonHeadshot.jpg",
-      "PackagePath": "staticwebassets/JoelHiltonHeadshot.jpg"
-    },
-    {
       "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
       "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/img/BaconsaleKate.jpg",
+      "PackagePath": "staticwebassets/img/BaconsaleKate.jpg"
+    },
+    {
+      "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/img/JoelHiltonHeadshot.jpg",
+      "PackagePath": "staticwebassets/img/JoelHiltonHeadshot.jpg"
     },
     {
       "Id": "/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/wwwroot/js/site.js",
