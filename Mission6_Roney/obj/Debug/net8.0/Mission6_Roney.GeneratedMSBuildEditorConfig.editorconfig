@@ -26,8 +26,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/Confirmation.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db25maXJtYXRpb24uY3NodG1s
+[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/EnterMovie.cshtml]
@@ -42,8 +42,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Kb2VsUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/WaitList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9XYWl0TGlzdC5jc2h0bWw=
+[/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/Home/ViewMovie.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9WaWV3TW92aWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/hudsonroney/RiderProjects/Mission6_Roney/Mission6_Roney/Views/_ViewImports.cshtml]

@@ -89,6 +89,12 @@
       <_ContentIncludedByDefault Remove="Views\Shared\_Layout.cshtml" />
       <_ContentIncludedByDefault Remove="Views\_ViewImports.cshtml" />
       <_ContentIncludedByDefault Remove="Views\_ViewStart.cshtml" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\BaconsaleKate.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\img\JoelHiltonHeadshot.jpg" />
+      <_ContentIncludedByDefault Remove="Views\Home\Confirmation.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\EnterMovie.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\JoelPage.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Home\WaitList.cshtml" />
     </ItemGroup>
 
 </Project>
